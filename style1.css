@@ -1,0 +1,238 @@
+html { background-color: #fcf9e9; } 
+body {
+    min-height: 20px;
+    max-width: 1500px;
+    margin: 0px;
+}
+
+h1{
+  position: absolute;
+  bottom: 30%;
+  left: 0%;
+  color: black;
+  width: 435px;
+  height: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  font-size: 200px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.br1{ 
+  line-height:170px
+}
+
+body {
+	background: #fcf9e9;
+	background-size: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  top: 800px;
+  height: 300px;
+  width: 1450px;
+  background: #fcf9e9;
+
+}
+
+.card{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 110px;
+  background-color: rgb(185, 215, 226);
+  color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(119, 119, 119);
+  text-align: center;
+  line-height: 115px;
+  border-radius: 13px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: rotate(15deg); /* 初始旋转角度 */
+  transform: rotate(angle + "-10deg"); /* 随機的旋转角度 */
+}
+
+.card:hover {
+  z-index: 1;
+  transform: translate(10px, -10px);
+}
+
+.card:hover + .card {
+  transform: translate(20px, -20px);
+}
+
+.card:hover + .card + .card {
+  transform: translate(30px, -30px);
+}
+
+.card:hover + .card + .card + .card {
+  transform: translate(40px, -40px);
+}
+
+.card:nth-child(1n) {
+  background-color: rgb(180, 202, 210);
+}
+
+.card:nth-child(2n) {
+  background-color: rgb(228, 194, 202);
+}
+
+.card:nth-child(3n) {
+  background-color: rgb(206, 215, 182);
+}
+
+.inputbox {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-200%);
+  text-align: center;
+}
+
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-row {
+  position: relative;
+  width: 50%;
+  width: 25%;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputbox {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-200%);
+  text-align: center;
+}
+
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-row {
+  position: relative;
+  width: 50%;
+  width: 25%;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  width: 100%;
+  padding: 20px 10px 10px;
+  appearance: none;
+  text-align: left;
+  height: 55px;
+  width: 165px;
+  border-radius: 19px;
+  padding: 0 20px;
+  outline: 0;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  background: #fcf9e9;
+  border: 2.75px solid rgb(0, 0, 0);
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: -25px;
+  font-size: 14px;
+  color: #999;
+}
+
+#output {
+  position: absolute;
+  height: 300px;
+  width: 680px;
+  font-size: 59px;
+  text-align: center;
+  padding: 0 20px;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0px;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  background: #fcf9e9;
+  border: 2.75px solid rgb(0, 0, 0);
+  border-radius: 19px;
+  top: 120px; 
+}
+
+#searchBtn {
+  position: absolute;
+  background: #fcf9e9;
+  border: 2.75px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0px;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 19px;
+  top: 0px; 
+}
+
+#searchBtn:hover {
+  background-color: rgb(185, 215, 226);
+}
+
+img {
+  position: absolute;
+  width: 8%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-270%);
+  bottom: 250px
+}
+
+
+
